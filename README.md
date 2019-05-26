@@ -1,6 +1,11 @@
-# liang-blog
+# vue-blog
 
-> A Vue.js project
+> 使用vue2、koa2、mongodb搭建的个人博客，支持markdown编辑，文章标签分类，发布文章／撤回发布文章，支持服务端渲染（Server-Side Rendering）
+
+## Build Prerequisite
+1. 安装mongoose
+2. 确保NodeJs版本是6.0以上
+
 
 ## Build Setup
 
@@ -8,14 +13,12 @@
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
-npm run dev
+# 启动客户端
+npm run dev-client
+
+# 启动服务端
+npm run dev-server
 
 # build for production with minification
 npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
